@@ -1,0 +1,174 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1238060,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Amazon search",
+        "description": "",
+        "id": "testing-the-resultlogging-feature;amazon-search",
+        "after": [
+          {
+            "result": {
+              "duration": 105630,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13697047258,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on amazon home page",
+            "match": {
+              "location": "TestLogStep.i_am_on_amazon_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4609368204,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for \u003ciphone charger\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003ciphone charger\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "TestLogStep.i_search_for(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 961233528,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Search result should be displayed",
+            "match": {
+              "location": "TestLogStep.search_result_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smokeSomeField"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 159943,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Amazon search 2",
+        "description": "",
+        "id": "testing-the-resultlogging-feature;amazon-search-2",
+        "after": [
+          {
+            "result": {
+              "duration": 209551,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.8.1\u0027, revision: \u00276e95a6684b\u0027, time: \u00272017-12-01T18:33:54.468Z\u0027\nSystem info: host: \u0027DESKTOP-IUDJ2E3\u0027, ip: \u0027192.168.0.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_171\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)\r\n\tat com.cucumber.dblogging.ResultLogging.stepdefs.TestLogStep.i_am_on_amazon_home_page(TestLogStep.java:26)\r\n\tat ✽.I am on amazon home page(src/test/resources/TestLog.feature:12)\r\n",
+              "duration": 9381461,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "I am on amazon home page",
+            "match": {
+              "location": "TestLogStep.i_am_on_amazon_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I search for \u003clamp\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003clamp\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "TestLogStep.i_search_for(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Search result should be displayed",
+            "match": {
+              "location": "TestLogStep.search_result_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing the ResultLogging Feature",
+    "description": "",
+    "id": "testing-the-resultlogging-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/TestLog.feature",
+    "tags": []
+  }
+]
